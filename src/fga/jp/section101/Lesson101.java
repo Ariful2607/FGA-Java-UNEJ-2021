@@ -15,11 +15,11 @@ public class Lesson101 {
 /*****************Slide8*****************/
 /**********Primitive Data Types**********/
         
-//        boolean result= true;
-//        char capitalC= 'C';
-//        byte b= 100;
-//        short s= 10000;
-//        int i= 100000;
+//        boolean result = true;
+//        char capitalC = 'C';
+//        byte b = 127;
+//        short s = 10000;
+//        int i = 100000;
 //        long creditCardNumber= 1234_5678_9012_3456L;
 //        
 //        System.out.println(result);
@@ -85,7 +85,7 @@ public class Lesson101 {
 //        long longVal;
 //        float floatVal;
 //        double doubleVal;
-//
+
 //        System.out.print("Please enter a booleanvalue: ");
 //        boolVal= in.nextBoolean();
 //        System.out.print("Please enter a byte value: ");
@@ -120,7 +120,7 @@ public class Lesson101 {
 //        int age;
 //        System.out.print("Please enter your age: ");
 //        age = in.nextInt();
-//        if(age> 20)
+//        if(age > 20)
 //            System.out.println("You are an adult");
 //        else
 //            System.out.println("You are not an adult");
@@ -140,7 +140,9 @@ public class Lesson101 {
 //        
 //        if((age> 20) && (holdLicence== 'y'))
 //            System.out.println("You are an adult and can hire a car");
-//        else
+//        else if ((age> 20) && (holdLicence== 'n'))
+//            System.out.println("You are an adult but cannot hire a car");
+//        else 
 //            System.out.println("You are not an adult so cannot hire a car");
 //        
 //        //endif
@@ -180,9 +182,9 @@ public class Lesson101 {
 //                for(int i= 0; i<numValues; i++)
 //                {
 //                    if(num== numbers[i]) {
-//                    System.out.println("Number already exists");
-//                    valid= false;
-//                    break;
+//                        System.out.println("Number already exists");
+//                        valid= false;
+//                        break;
 //                    }//endif
 //                }//endfor
 //            }while(!valid);
