@@ -4,6 +4,8 @@ package fga.jp.section204.JavaBank;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.InputMismatchException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.*;
 import javax.swing.border.*;
@@ -198,7 +200,11 @@ public class JavaBank extends JFrame {
               // event handler called when TransactionJButton
               // is clicked
               public void actionPerformed(ActionEvent event) {
-                 transactionJButtonActionPerformed(event);
+                  try {
+                      transactionJButtonActionPerformed(event);
+                  } catch (MyException ex) {
+                      Logger.getLogger(JavaBank.class.getName()).log(Level.SEVERE, null, ex);
+                  }
               }//end method actionPerformed
            }//end ActionListener
         ); // end call to addActionListener
