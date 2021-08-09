@@ -9,19 +9,19 @@ package fga.jp.section101;
  *
  * @author Ay
  */
-public class Lesson101Dog extends Lesson101Animal{
+public class Dog extends Animal{
    //instance field declarations
    private String name;
    private String barkNoise = "Woof";
    private double weight;
 
-    public Lesson101Dog(String name, String breed, double weight, String colour) {
+    public Dog(String name, String breed, double weight, String colour) {
         super(breed, colour);
 	this.name = name;
         this.weight = weight;
     }//end constructor method
    
-    public Lesson101Dog(String name, String breed, String noise, double weight, String colour) {
+    public Dog(String name, String breed, String noise, double weight, String colour) {
 	super(breed, colour);
 	this.name = name;
 	barkNoise = noise;

@@ -9,10 +9,10 @@ package fga.jp.section101;
  *
  * @author Ay
  */
-public class Lesson101Fish extends Lesson101Animal{
+public class Fish extends Animal{
     private String waterType;
 	
-    public Lesson101Fish(String breed, String waterType, String colour) {
+    public Fish(String breed, String waterType, String colour) {
 	super(breed, colour);
 	this.waterType = waterType;
     }//end constructor method

@@ -9,10 +9,10 @@ package fga.jp.section101;
  *
  * @author Ay
  */
-public class Lesson101AnimalTester {
+public class AnimalTester {
     public static void main(String[] args) {
-        Lesson101Dog dog = new Lesson101Dog("Bailey", "Boerboel", "arf-arf", 80.2, "brown");;
-	Lesson101Fish fish = new Lesson101Fish("Goldfish", "cold", "red");
+        Dog dog = new Dog("Bailey", "Boerboel", "arf-arf", 80.2, "brown");;
+	Fish fish = new Fish("Goldfish", "cold", "red");
 
 	System.out.println("Dog name  : " + dog.getName());
 	System.out.println("Dog breed : " + dog.getBreed());
