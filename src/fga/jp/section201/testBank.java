@@ -1,3 +1,5 @@
+package fga.jp.section201;
+
 
 public class testBank {
 	

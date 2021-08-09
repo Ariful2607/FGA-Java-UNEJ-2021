@@ -1,4 +1,4 @@
-package fga.jp.section202.JavaBank;
+package fga.jp.section204.JavaBank;
 
 public interface InterfaceBankAccount
 {

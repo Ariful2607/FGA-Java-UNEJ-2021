@@ -1,4 +1,4 @@
-package bakery;
+package fga.jp.section202.bakery;
 
 public interface Item {
 	  public String getItemName();
