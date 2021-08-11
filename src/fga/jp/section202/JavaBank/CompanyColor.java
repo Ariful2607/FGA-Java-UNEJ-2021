@@ -2,7 +2,7 @@ package fga.jp.section202.JavaBank;
 
 public final class CompanyColor {
 
-   private final int R = 238;
+   private final int R = 130;
    private final int G = 130;
    private final int B = 238;
 

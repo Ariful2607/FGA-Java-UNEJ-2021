@@ -6,8 +6,8 @@ public class testBank {
 	public static void main(String[] args) {
      
 	// Instantiate 3 accounts
-		// Using constructor with values
-    Account A1 = new Account("Sanjay Gupta",11556,300);
+	// Using constructor with values
+         Account A1 = new Account("Sanjay Gupta",11556,300);
     	// Using default constructor
 	Account A2 = new Account();
 	Account A3 = new Account();
