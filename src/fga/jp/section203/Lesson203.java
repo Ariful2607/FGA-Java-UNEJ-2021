@@ -18,7 +18,7 @@ public class Lesson203 {
 //        System.out.println(complexNumber);
         
         //downcast
-//        simpleNumber = (int) complexNumber;
-//        System.out.println(simpleNumber);
+        simpleNumber = (int) complexNumber;
+        System.out.println(simpleNumber);
     }//end method main
 }

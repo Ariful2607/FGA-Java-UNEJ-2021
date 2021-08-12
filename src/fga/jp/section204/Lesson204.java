@@ -13,16 +13,16 @@ public class Lesson204 {
     public static void main(String[ ] args) {
         //Try Catch
 //        try {
-//            int[] myNumbers = {1, 2, 3};
-//            System.out.println(myNumbers[10]);
+//            int[] myNumbers = {1, 2, 3}; // length = 3
+//            System.out.println(myNumbers[1]);
 //        } catch (Exception e) {
-//            System.out.println("Something went wrong.");
+//            System.out.println("Something went wrong."); //skip
 //        } finally {
-//            System.out.println("The 'try catch' is finished.");
+//            System.out.println("The 'try catch' is finished."); //dijalankan
 //        }
         //assertion
-//        int age = 14;
-//        assert age <= 18 : "Cannot Vote";
-//        System.out.println("The voter's age is " + age);
+        int age = 14;
+        assert age <= 18 : "Cannot Vote";
+        System.out.println("The voter's age is " + age);
     }
 }
