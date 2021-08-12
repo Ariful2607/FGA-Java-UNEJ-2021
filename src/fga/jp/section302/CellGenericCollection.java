@@ -1,4 +1,4 @@
-package fga.jp.section302.genericcollections;
+package fga.jp.section302;
 
 public class CellGenericCollection<T> {
   T[] cells;

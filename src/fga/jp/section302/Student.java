@@ -1,4 +1,4 @@
-package fga.jp.section302.classlist;
+package fga.jp.section302;
 
 import java.util.ArrayList;
 import java.util.Collections;

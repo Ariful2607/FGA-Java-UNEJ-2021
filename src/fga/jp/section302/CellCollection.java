@@ -1,4 +1,4 @@
-package fga.jp.section302.nongenericcollections;
+package fga.jp.section302;
 
 public class CellCollection {
 	  Cell[] cells;

@@ -1,4 +1,4 @@
-package fga.jp.section302.hashsetexample;
+package fga.jp.section302;
 
 public class Coin {
 	private int denomination;
