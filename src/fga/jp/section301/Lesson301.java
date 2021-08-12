@@ -13,7 +13,9 @@ import java.util.List;
 
 enum Color
 {
-    RED, GREEN, BLUE;
+    red, 
+    GREEN, 
+    BLUE;
 }
 
 class Test<T>
@@ -35,7 +37,7 @@ public class Lesson301 {
         
         //Enum
         
-//        Color c1 = Color.RED;
+//        Color c1 = Color.red;
 //        Color c2 = Color.GREEN;
 //        Color c3 = Color.BLUE;
 //        System.out.print("Name of enum constant: ");
@@ -45,13 +47,13 @@ public class Lesson301 {
         
         //Generic Class
         
-//        Test <Integer> iObj = new Test<Integer>(15); //integer
+//        Test <Integer> iObj = new Test<Integer>(15); //Integer
 //        System.out.println(iObj.getObject());
 //   
-//        Test <String> sObj = new Test<String>("Java Programming"); //string
+//        Test <String> sObj = new Test<String>("Java Programming"); //String
 //        System.out.println(sObj.getObject());
 //        
-//        Test <Float> fObj = new Test<Float>(3.14f); //float
+//        Test <Float> fObj = new Test<Float>(3.14f); //Float
 //        System.out.println(fObj.getObject());
         
         //Unbound Wildcards
@@ -69,10 +71,10 @@ public class Lesson301 {
 //        System.out.print("Total sum is:"+sum(list2)); //printing the sum of elements in list
         
         //Lower Bounded Wildcards
-//        List<Integer> list1= Arrays.asList(4,5,6,7); //Lower Bounded Integer List
-//        printOnlyIntegerClassorSuperClass(list1); //Integer list object is being passed
-//        List<Number> list2= Arrays.asList(4,5,6,7); //Number list
-//        printOnlyIntegerClassorSuperClass(list2); //Integer list object is being passed
+        List<Integer> list1= Arrays.asList(4,5,6,7); //Lower Bounded Integer List
+        printOnlyIntegerClassorSuperClass(list1); //Integer list object is being passed
+        List<Number> list2= Arrays.asList(4,5,6,7); //Number list
+        printOnlyIntegerClassorSuperClass(list2); //Integer list object is being passed
     }
     
     //Unbound Wildcards

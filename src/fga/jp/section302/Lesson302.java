@@ -28,15 +28,17 @@ public class Lesson302 {
         
         //Hash set
         
-//        HashSet<String> hs = new HashSet<String>();
-//  
-//        hs.add("FGA");
-//        hs.add("Java");
-//        hs.add("Programming");
-//  
-//        Iterator<String> itr = hs.iterator();
-//        while (itr.hasNext()) {
-//            System.out.println(itr.next());
-//        }
+        HashSet<String> hs = new HashSet<String>();
+  
+        hs.add("FGA");
+        hs.add("Java");
+        hs.add("Foundation");
+        hs.add("and");
+        hs.add("Programming");
+  
+        Iterator<String> itr = hs.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
     }
 }
