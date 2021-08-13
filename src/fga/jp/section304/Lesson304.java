@@ -18,7 +18,8 @@ public class Lesson304 {
         
         //SELECTION SORT
                 
-//        int arr1[] = {64,25,12,22,11};
+        int arr1[] = {64,25,12,22,11};
+
 //        ob.selectionsort(arr1);
 //        System.out.println("Sorted array");
 //        ob.printArray(arr1);
@@ -26,6 +27,8 @@ public class Lesson304 {
         //BUBLE SORT
         
 //        int arr2[] = {64, 34, 25, 12, 22, 11, 90};
+//        //34 64 25 12 22 11 90
+//        //34 25 64 12 22 11 90
 //        ob.bubbleSort(arr2);
 //        System.out.println("Sorted array");
 //        ob.printArray(arr2);
@@ -44,22 +47,24 @@ public class Lesson304 {
         
         //SEQUENTIAL SEARCH
         
-//        int arr4[] = { 6, 7, 8, 9, 10 };
+//        int arr4[] = { 9, 7, 10, 6, 10 };
 //        int n = arr4.length;
-// 
+//        
+//        // 9 7 10
 //        // Element to search
-//        int k = 8;
+//        int k = 10;
 //        SequentialSearch(arr4, n, k);
         
         //BINARY SEARCH
-//        int arr5[] = { 2, 3, 4, 10, 40 };
-//        int n = arr5.length;
-//        int x = 10;
-//        int result = ob.binarySearch(arr5, 0, n - 1, x);
-//        if (result == -1)
-//            System.out.println("Element not present");
-//        else
-//            System.out.println("Element found at index " + result);
+        
+        int arr5[] = { 2, 3, 4, 10, 40 };
+        int n = arr5.length;
+        int x = 10;
+        int result = ob.binarySearch(arr5, 0, n - 1, x);
+        if (result == -1)
+            System.out.println("Element not present");
+        else
+            System.out.println("Element found at index " + result);
     }
     
     void selectionsort(int arr[])
@@ -82,6 +87,7 @@ public class Lesson304 {
             arr[i] = temp;
         }
     }
+    
     void bubbleSort(int arr[])
     {
         int n = arr.length;

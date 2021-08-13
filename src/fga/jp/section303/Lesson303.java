@@ -68,19 +68,21 @@ public class Lesson303 {
 //        System.out.println("Mapping dari HashMap hm2 adalah : "
 //                           + hm2);
         
-//        // LINKED LIST
-//        
-//        // Creating object of the
-//        // class linked list
+        // LINKED LIST
+        
+        // Creating object of the
+        // class linked list
 //        LinkedList<String> ll
 //            = new LinkedList<String>();
 //  
 //        // Adding elements to the linked list
-//        ll.add("A");
+//        ll.add("A"); 
 //        ll.add("B");
 //        ll.addLast("C");
 //        ll.addFirst("D");
 //        ll.add(2, "E");
+//        
+//        // D A E B C
 //  
 //        System.out.println(ll);
 //  
@@ -88,12 +90,13 @@ public class Lesson303 {
 //        ll.remove(3);
 //        ll.removeFirst();
 //        ll.removeLast();
-//  
+//        
+//        // A
 //        System.out.println(ll);
         
-//        // STACK USING LINKLIST
-//        
-//        // create Object of Implementing class
+        // STACK USING LINKLIST
+        
+        // create Object of Implementing class
 //        StackUsingLinkedlist obj = new StackUsingLinkedlist();
 //        // insert Stack value
 //        obj.push(11);
@@ -103,14 +106,18 @@ public class Lesson303 {
 // 
 //        // print Stack elements
 //        obj.display();
-// 
+//        
+//        // head<-11<--22<-33<-44
+//        
 //        // print Top element of Stack
 //        System.out.printf("\nTop element is %d\n", obj.peek());
 // 
 //        // Delete top element of Stack
 //        obj.pop();
 //        obj.pop();
-// 
+//        
+//        // head<-11<--22
+//        
 //        // print Stack elements
 //        obj.display();
 // 
@@ -118,19 +125,22 @@ public class Lesson303 {
 //        System.out.printf("\nTop element is %d\n", obj.peek());
         
         // QUEUE USING LINKLIST
-//        Queue q = new Queue();
-//        q.enqueue(10);
-//        q.enqueue(20);
-//        q.dequeue();
-//        q.dequeue();
-//        q.enqueue(30);
-//        q.enqueue(40);
-//        q.enqueue(50);
-//        q.dequeue();
-//        System.out.println("Queue Depan : " + q.front.key);
-//        System.out.println("Queue Belakang : " + q.rear.key);
+        Queue q = new Queue();
+        q.enqueue(10);
+        q.enqueue(20);
+        q.dequeue();
+        q.enqueue(30);
+        q.enqueue(40);
+        q.dequeue();
+        q.enqueue(50);
+        q.dequeue();
+        
+        //50<-40
+        System.out.println("Queue Depan : " + q.front.key);
+        System.out.println("Queue Belakang : " + q.rear.key);
     }
 }
+
 class StackUsingLinkedlist {
     // A linked list node
         private class Node {
