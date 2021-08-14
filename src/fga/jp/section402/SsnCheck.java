@@ -1,4 +1,4 @@
-package ssncheck;
+package fga.jp.section402;
 
 import java.util.Scanner;
 

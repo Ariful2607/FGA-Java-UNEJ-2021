@@ -1,4 +1,4 @@
-package regexgroups;
+package fga.jp.section402;
 
 import java.text.DateFormat;
 import java.text.ParseException;

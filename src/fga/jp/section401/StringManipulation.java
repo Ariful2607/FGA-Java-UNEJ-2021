@@ -1,4 +1,4 @@
-package stringmanipulation;
+package fga.jp.section401;
 
 import java.util.ArrayList;
 import java.util.Collections;

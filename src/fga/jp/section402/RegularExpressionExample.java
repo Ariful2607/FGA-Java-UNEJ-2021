@@ -1,4 +1,4 @@
-package regularexpressionexample;
+package fga.jp.section402;
 
 public class RegularExpressionExample {
 

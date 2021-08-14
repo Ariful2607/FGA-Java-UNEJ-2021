@@ -1,4 +1,4 @@
-package regexreplace;
+package fga.jp.section402;
 
 public class RegExReplace {
 	 public static void main(String[] args) {

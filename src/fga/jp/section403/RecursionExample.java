@@ -1,4 +1,4 @@
-package recursionexample;
+package fga.jp.section403;
 
 public class RecursionExample {
 

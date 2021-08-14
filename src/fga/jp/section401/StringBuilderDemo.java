@@ -1,4 +1,4 @@
-package stringbuilderdemo;
+package fga.jp.section401;
 
 public class StringBuilderDemo {
 

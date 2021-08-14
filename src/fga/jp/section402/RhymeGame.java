@@ -1,4 +1,4 @@
-package rhyminggame;
+package fga.jp.section402;
 
 import java.util.Scanner;
 

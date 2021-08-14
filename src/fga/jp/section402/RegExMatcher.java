@@ -1,4 +1,4 @@
-package regexmatcher;
+package fga.jp.section402;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
